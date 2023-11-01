@@ -1,0 +1,35 @@
+div#background {
+  background-image: url("https://wallpapers.com/images/hd/plain-black-background-02fh7564l8qq4m6d.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  width: 100%;
+  height: 100vh;
+  overflow: scroll;
+}
+
+.glow {
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px red, 0 0 40px red, 0 0 50px red, 0 0 60px red, 0 0 70px red;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px red, 0 0 40px red, 0 0 50px red, 0 0 60px #ff4da6, 0 0 70px red, 0 0 80px red;
+  }
+}
+
+#head-text{
+  color: red;
+}
+
+#shows img {
+  width: 90px;
+}
+
+.table {
+  opacity: 94%;
+}
