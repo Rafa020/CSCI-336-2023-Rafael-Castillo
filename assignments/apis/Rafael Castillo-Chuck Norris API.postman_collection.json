@@ -1,0 +1,771 @@
+{
+	"info": {
+		"_postman_id": "79ee1f4e-cb5e-4402-bdfd-ddbd751f67d7",
+		"name": "Rafael Castillo-Chuck Norris API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30753767",
+		"_collection_link": "https://www.postman.com/tooelite6/workspace/rafael-castillo-chuck-norris-api/collection/30753767-79ee1f4e-cb5e-4402-bdfd-ddbd751f67d7?action=share&source=collection_link&creator=30753767"
+	},
+	"item": [
+		{
+			"name": "Get Categories",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "md-chuck-norris-jokes.herokuapp.com/jokes/categories?X-API-Key=d3f43c4f-9ac9-45a2-8976-f26ab574a3c0",
+					"host": [
+						"md-chuck-norris-jokes",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"jokes",
+						"categories"
+					],
+					"query": [
+						{
+							"key": "X-API-Key",
+							"value": "d3f43c4f-9ac9-45a2-8976-f26ab574a3c0"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get Categories EX",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "md-chuck-norris-jokes.herokuapp.com/jokes/categories?X-API-Key=d3f43c4f-9ac9-45a2-8976-f26ab574a3c0",
+							"host": [
+								"md-chuck-norris-jokes",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"jokes",
+								"categories"
+							],
+							"query": [
+								{
+									"key": "X-API-Key",
+									"value": "d3f43c4f-9ac9-45a2-8976-f26ab574a3c0"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,PUT,POST,DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "130"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"82-gjwrZbS5hPf20nXTQtxNsFPkqvM\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 01 Nov 2023 05:11:11 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    \"amazing\",\n    \"animal\",\n    \"business\",\n    \"celebrity\",\n    \"dev\",\n    \"explicit\",\n    \"fiction\",\n    \"food\",\n    \"games\",\n    \"history\",\n    \"math\",\n    \"movies\",\n    \"science\",\n    \"sports\"\n]"
+				}
+			]
+		},
+		{
+			"name": "Get Random Joke",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "md-chuck-norris-jokes.herokuapp.com/jokes/random?X-API-Key=d3f43c4f-9ac9-45a2-8976-f26ab574a3c0",
+					"host": [
+						"md-chuck-norris-jokes",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"jokes",
+						"random"
+					],
+					"query": [
+						{
+							"key": "X-API-Key",
+							"value": "d3f43c4f-9ac9-45a2-8976-f26ab574a3c0"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get Random Joke EX",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "md-chuck-norris-jokes.herokuapp.com/jokes/random?X-API-Key=d3f43c4f-9ac9-45a2-8976-f26ab574a3c0",
+							"host": [
+								"md-chuck-norris-jokes",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"jokes",
+								"random"
+							],
+							"query": [
+								{
+									"key": "X-API-Key",
+									"value": "d3f43c4f-9ac9-45a2-8976-f26ab574a3c0"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"group\":\"heroku-nel\",\"max_age\":3600,\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?ts=1698815553&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&s=YvIUkz46TDhPMl9yjnNqTqeKoBSXSF5fBlRV3hCqu6A%3D\"}]}"
+						},
+						{
+							"key": "Reporting-Endpoints",
+							"value": "heroku-nel=https://nel.heroku.com/reports?ts=1698815553&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&s=YvIUkz46TDhPMl9yjnNqTqeKoBSXSF5fBlRV3hCqu6A%3D"
+						},
+						{
+							"key": "Nel",
+							"value": "{\"report_to\":\"heroku-nel\",\"max_age\":3600,\"success_fraction\":0.005,\"failure_fraction\":0.05,\"response_headers\":[\"Via\"]}"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,PUT,POST,DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "185"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"b9-UdHMj7WoBGrpEzIAAGxJU3pfetc\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 01 Nov 2023 05:12:33 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 23,\n    \"value\": \"Chuck Norris does not love Raymond.\",\n    \"category\": \"celebrity\",\n    \"author\": \"Michael DeSanty\",\n    \"created_at\": \"2023-10-18T03:10:45.641Z\",\n    \"updated_at\": \"2023-10-18T03:10:45.641Z\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Get Joke 15",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "md-chuck-norris-jokes.herokuapp.com/jokes/15?X-Api-Key=d3f43c4f-9ac9-45a2-8976-f26ab574a3c0",
+					"host": [
+						"md-chuck-norris-jokes",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"jokes",
+						"15"
+					],
+					"query": [
+						{
+							"key": "X-Api-Key",
+							"value": "d3f43c4f-9ac9-45a2-8976-f26ab574a3c0"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get Joke 15 EX",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "md-chuck-norris-jokes.herokuapp.com/jokes/15?X-Api-Key=d3f43c4f-9ac9-45a2-8976-f26ab574a3c0",
+							"host": [
+								"md-chuck-norris-jokes",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"jokes",
+								"15"
+							],
+							"query": [
+								{
+									"key": "X-Api-Key",
+									"value": "d3f43c4f-9ac9-45a2-8976-f26ab574a3c0"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,PUT,POST,DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "224"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"e0-Rax7WsZiNIZnRgNL0niGDB7X2vs\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 01 Nov 2023 05:13:49 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 15,\n    \"value\": \"Fear of spiders is called aracnaphobia. Fear of Chuck Norris is called logic.\",\n    \"category\": \"animal\",\n    \"author\": \"Michael DeSanty\",\n    \"created_at\": \"2023-10-18T03:10:45.641Z\",\n    \"updated_at\": \"2023-10-18T03:10:45.641Z\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Create Joke",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "in",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "d3f43c4f-9ac9-45a2-8976-f26ab574a3c0",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "X-API-Key",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-API-Key",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"value\": \"Chuck Norris doesn't fight the urge to eat nachos. The urge fights him\",\n    \"category\": \"food\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://md-chuck-norris-jokes.herokuapp.com/jokes/",
+					"protocol": "https",
+					"host": [
+						"md-chuck-norris-jokes",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"jokes",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Create Joke",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "X-API-Key",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"value\": \"Chuck Norris doesn't fight the urge to eat nachos. The urge fights him\",\n    \"category\": \"food\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://md-chuck-norris-jokes.herokuapp.com/jokes/",
+							"protocol": "https",
+							"host": [
+								"md-chuck-norris-jokes",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"jokes",
+								""
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,PUT,POST,DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type"
+						},
+						{
+							"key": "Access-Control-Expose-Headers",
+							"value": "Location"
+						},
+						{
+							"key": "Location",
+							"value": "/jokes/95"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "40"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"28-/Cf84JJPklplT4tEmTjRmeaUugs\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 01 Nov 2023 15:47:17 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Joke created successfully.\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Update Joke",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "in",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "d3f43c4f-9ac9-45a2-8976-f26ab574a3c0",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "X-API-Key",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"value\": \"Chuck Norris does no pushups. He pushes the earth\",\n    \"category\": \"science\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://md-chuck-norris-jokes.herokuapp.com/jokes/95",
+					"protocol": "https",
+					"host": [
+						"md-chuck-norris-jokes",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"jokes",
+						"95"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Update Joke",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"value\": \"Chuck Norris does no pushups. He pushes the earth\",\n    \"category\": \"science\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://md-chuck-norris-jokes.herokuapp.com/jokes/95",
+							"protocol": "https",
+							"host": [
+								"md-chuck-norris-jokes",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"jokes",
+								"95"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"group\":\"heroku-nel\",\"max_age\":3600,\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?ts=1698853799&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&s=CKdYmVRaJ2G3XXVInxpDTxIFSKDJ9yb7ixZMMGaK1NU%3D\"}]}"
+						},
+						{
+							"key": "Reporting-Endpoints",
+							"value": "heroku-nel=https://nel.heroku.com/reports?ts=1698853799&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&s=CKdYmVRaJ2G3XXVInxpDTxIFSKDJ9yb7ixZMMGaK1NU%3D"
+						},
+						{
+							"key": "Nel",
+							"value": "{\"report_to\":\"heroku-nel\",\"max_age\":3600,\"success_fraction\":0.005,\"failure_fraction\":0.05,\"response_headers\":[\"Via\"]}"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,PUT,POST,DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "40"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"28-OIOA4XCfG7wKiTiuqpKMyXe7C8s\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 01 Nov 2023 15:49:59 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Joke successfully updated.\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Delete Joke",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "in",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "d3f43c4f-9ac9-45a2-8976-f26ab574a3c0",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "X-API-Key",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"value\": \"Chuck Norris does no pushups. He pushes the earth\",\n    \"category\": \"science\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://md-chuck-norris-jokes.herokuapp.com/jokes/95",
+					"protocol": "https",
+					"host": [
+						"md-chuck-norris-jokes",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"jokes",
+						"95"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Delete Joke",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"value\": \"Chuck Norris does no pushups. He pushes the earth\",\n    \"category\": \"science\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://md-chuck-norris-jokes.herokuapp.com/jokes/95",
+							"protocol": "https",
+							"host": [
+								"md-chuck-norris-jokes",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"jokes",
+								"95"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"group\":\"heroku-nel\",\"max_age\":3600,\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?ts=1698853842&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&s=U0Ke2lAGbVzEB2FqLXPT7FG%2BrW1QxJohs0yi61AV%2BaI%3D\"}]}"
+						},
+						{
+							"key": "Reporting-Endpoints",
+							"value": "heroku-nel=https://nel.heroku.com/reports?ts=1698853842&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&s=U0Ke2lAGbVzEB2FqLXPT7FG%2BrW1QxJohs0yi61AV%2BaI%3D"
+						},
+						{
+							"key": "Nel",
+							"value": "{\"report_to\":\"heroku-nel\",\"max_age\":3600,\"success_fraction\":0.005,\"failure_fraction\":0.05,\"response_headers\":[\"Via\"]}"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,PUT,POST,DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "40"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"28-wsTUoquowRt3rudEHcPRZeZBgOc\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 01 Nov 2023 15:50:43 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Joke successfully deleted.\"\n}"
+				}
+			]
+		}
+	]
+}
