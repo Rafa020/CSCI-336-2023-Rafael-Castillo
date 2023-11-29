@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-color: #444444;
+}
+
+#style-calc-title {
+  color: #61dbfb;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#style-border {
+  max-width: 50%;
+}
+
+#style-calc-subtext {
+  color: whitesmoke;
+  font-weight: 500;
+}
+
+#number-a {
+  background-color: whitesmoke;
+}
+
+#style-img {
+  max-width: 8%;
+}
+
+#Add-button {
+  color: whitesmoke;
+  font-weight: 600;
+  max-width: 100%;
+}
+
+#Subtract-button {
+  color: whitesmoke;
+  font-weight: 600;
+  max-width: 100%;
+}
+
+#answer {
+  color: whitesmoke;
+  font-size: 15px;
+  font-weight: 500;
+}
