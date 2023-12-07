@@ -1,0 +1,29 @@
+:root {
+  background-image: url(./bg.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 320px;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+.splash-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeOut 4s ease forwards;
+  z-index: 9999;
+}

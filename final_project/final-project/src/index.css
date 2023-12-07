@@ -1,0 +1,176 @@
+@font-face {
+  font-family: Deadstock;
+  src: url(../public/Dead-Stock.ttf);
+}
+
+#nav-main {
+  background-color: #111111;
+}
+#style-nav-top {
+  color: #f9f94b;
+  font-size: 30px;
+  font-family: Deadstock;
+}
+
+#style-load-top {
+  color: whitesmoke;
+  font-size: 20px;
+
+  background-color: black;
+  font-family: Deadstock;
+}
+
+#style-delete-top {
+  color: whitesmoke;
+  font-size: 20px;
+
+  background-color: #e5432d;
+  font-family: Deadstock;
+  display: none;
+}
+
+#header-title {
+  color: #e5432d;
+  font-size: 40px;
+  font-family: Deadstock;
+}
+
+#main-bg {
+  background-color: rgb(15, 13, 13);
+}
+
+#main-bg {
+  background-color: rgb(15, 13, 13);
+}
+
+.style-header-cat {
+  max-width: 15%;
+}
+
+#style-button-div {
+  padding-left: 65%;
+}
+
+#style-button {
+  font-family: Deadstock;
+  color: whitesmoke;
+  background-color: rgb(7, 7, 7);
+  font-weight: 50;
+}
+
+#style-submit-button {
+  font-family: Deadstock;
+  color: whitesmoke;
+  background-color: rgb(7, 7, 7);
+  font-weight: 50;
+}
+
+#style-cancel-button {
+  font-family: Deadstock;
+  color: whitesmoke;
+  background-color: #e5432d;
+  font-weight: 50;
+}
+#style-loading {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  font-size: 10px;
+  color: whitesmoke;
+}
+
+#loading {
+  display: none;
+}
+
+#style-card {
+  background-color: #212121;
+}
+
+#style-data-author {
+  font-family: Deadstock;
+  color: white;
+}
+
+#style-data-joke {
+  font-family: Deadstock;
+  color: #e5432d;
+}
+
+#style-data-category {
+  font-family: Deadstock;
+  color: #4ca7ad;
+}
+
+#style-data-id {
+  font-family: Deadstock;
+  font-size: small;
+
+  color: whitesmoke;
+}
+
+#style-data {
+  display: none;
+}
+
+#style-offcanvas-head {
+  font-family: Deadstock;
+  max-width: 60%;
+  color: rgb(237, 237, 237);
+}
+
+.style-offcanvas-nav {
+  background-color: black;
+}
+
+#style-offcanvas-bg {
+  background-color: rgb(15, 13, 13);
+}
+
+#style-yingyang {
+  max-width: 30%;
+  animation: rotate 5s infinite;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(400deg);
+  }
+}
+
+#style-joke-form {
+  font-family: Deadstock;
+  font-size: 25px;
+  font-weight: 10;
+  color: rgb(192, 192, 192);
+}
+
+#style-joke-subtext {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  font-size: xx-small;
+  font-weight: 40;
+}
+
+#joke-input {
+  color: white;
+  font-size: small;
+  font-weight: 100;
+}
+
+#success-alert {
+  display: none;
+}
+
+#error-alert {
+  display: none;
+}
+
+#no-jokes {
+  display: none;
+  font-family: Deadstock;
+  font-size: 13px;
+  font-weight: 200;
+  color: #e5432d;
+}
