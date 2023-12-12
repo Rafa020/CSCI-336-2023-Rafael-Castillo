@@ -1,0 +1,51 @@
+#head-border{
+    border-bottom: 2px solid black;
+    word-spacing: 330px;
+    padding: 20px;
+}
+
+#logo{
+    text-decoration-line: none;
+    font-family:serif;
+    font-size: 45px;
+
+    color: blue;
+    
+}
+
+#sub-border{
+    border-bottom: 2px solid black;
+
+}
+
+#set-sub-style{
+    text-decoration-line: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+    font-size: 20px;
+}
+
+#middle-img{
+    height: 500px;
+    width: 659px;
+
+}
+
+
+#resize-button{
+    width: 20x;
+    height: 20px;
+    
+}
+
+#resize-productlist{
+    text-decoration: none;
+    right: 20%;
+}
+
+
+#secondButton{
+    padding: 0;
+    border: none;  
+    background: none;
+}
